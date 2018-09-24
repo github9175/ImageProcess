@@ -1,3 +1,3 @@
-Puclic class DL{
+public class DL{
 	DLnode head;
 }
