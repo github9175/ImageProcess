@@ -11,9 +11,13 @@ The original image:
 ![Alt text](https://github.com/smharb/ImageProcess/raw/master/original.png)
 
 Blur this image with 5 iterations.
+
 java -cp ".:jai_core.jar:jai_codec.jar" Blur flower.tiff 5
+
 ![Alt text](https://github.com/smharb/ImageProcess/raw/master/blur.png)
 
 Edge detection with 5 iterations.
+
 java -cp ".:jai_core.jar:jai_codec.jar" Sobel flower.tiff 5
+
 ![Alt text](https://github.com/smharb/ImageProcess/raw/master/edge.png)
